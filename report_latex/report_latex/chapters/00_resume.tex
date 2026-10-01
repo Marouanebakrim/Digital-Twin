@@ -1,0 +1,30 @@
+﻿\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé / Abstract}
+\markboth{Résumé / Abstract}{Résumé}
+
+Dans le contexte de l'Industrie 4.0, la continuité de service des installations industrielles critiques constitue un enjeu économique et opérationnel de premier ordre. Dans les chaînes de traitement de minerai de phosphate du Groupe OCP, les équipements de production (roues-pelles, concasseurs, convoyeurs, cribles, unités de flottation) fonctionnent en flux continu et présentent une forte interdépendance fonctionnelle. La survenue d'une anomalie mécanique non anticipée sur un équipement amont (ex. élévation anormale des vibrations d'un concasseur) engendre, par effet domino, le blocage ou la dégradation sévère des machines en aval, provoquant des arrêts de production extrêmement coûteux.
+
+Le présent projet d'ingénierie logicielle porte sur la \textbf{conception et le développement d'un prototype complet de Jumeau Numérique (Digital Twin) industriel} dédié à la supervision temps réel, à la détection proactive d'anomalies multi-seuils et à l'analyse algorithmique d'impact de défaillance en cascade.
+
+Le système est conçu selon les principes stricts de la \textbf{Clean Architecture} et du \textbf{Domain-Driven Design (DDD)}, combinés au pattern \textbf{CQRS} via \textbf{MediatR}. Le cœur applicatif intègre un moteur de traitement centralisé (\textit{DigitalTwinEngine}), un service d'évaluation d'anomalies multi-seuils (\textit{AnomalyDetectionService}), un régulateur de notifications anti-rebond thread-safe (\textit{AlertCooldownService}) et un module d'analyse d'impact (\textit{ImpactAnalysisService}) fondé sur un algorithme de parcours en largeur (\textbf{BFS}) avec détection de cycles sur le graphe orienté de dépendance de l'usine.
+
+La solution a été implémentée avec \textbf{.NET 9 / C\# 13}, \textbf{Entity Framework Core} et \textbf{SQL Server} pour le backend, \textbf{ASP.NET Core SignalR} (WebSockets) pour la diffusion bidirectionnelle en temps réel, un \textbf{Worker Service} autonome pour la simulation d'usine et le rejeu de pannes déterministes, et \textbf{Angular 19} (\textit{Signals}, \textit{vis-network}, \textit{Chart.js}) pour l'interface de supervision réactive. La robustesse du système est validée par \textbf{83 tests unitaires automatisés} sous \textit{xUnit / FluentAssertions} et une validation expérimentale démontrant un temps de réponse global sub-seconde ($45.6$\,ms).
+
+\textbf{Mots-clés :} Jumeau Numérique, Digital Twin, Industrie 4.0, Groupe OCP, Traitement du Phosphate, Clean Architecture, Domain-Driven Design, CQRS, MediatR, SignalR, Algorithme BFS, Analyse d'Impact, ASP.NET Core 9, Angular 19.
+
+\vspace{0.8cm}
+\hrule
+\vspace{0.8cm}
+
+\section*{Abstract}
+\markboth{Résumé / Abstract}{Abstract}
+
+In the context of Industry 4.0, maintaining operational continuity in critical industrial facilities is a paramount economic and operational priority. In phosphate processing plants operated by the OCP Group, production equipment (bucket-wheel reclaimers, crushers, conveyor belts, vibrating screens, flotation units) operates in continuous flow with strict functional interdependencies. The sudden, unplanned mechanical failure of an upstream machine (e.g., severe vibration anomaly on a primary crusher) triggers a cascading domino effect that cripples downstream operations, leading to costly unplanned downtime.
+
+This engineering report presents the \textbf{end-to-end design and software development of an industrial Digital Twin prototype} dedicated to real-time monitoring, multi-threshold anomaly detection, and automated failure cascade impact analysis across a phosphate production line.
+
+The system is architected in accordance with \textbf{Clean Architecture} and \textbf{Domain-Driven Design (DDD)} principles, organized around the \textbf{CQRS} pattern using \textbf{MediatR}. Core backend components include the \textit{DigitalTwinEngine}, a multi-threshold \textit{AnomalyDetectionService}, a thread-safe sliding-window \textit{AlertCooldownService}, and an \textit{ImpactAnalysisService} executing a multi-level \textbf{Breadth-First Search (BFS)} graph traversal with cycle prevention across the plant's dependency topology.
+
+The technology stack is built upon \textbf{.NET 9 / C\# 13}, \textbf{Entity Framework Core}, and \textbf{SQL Server} for the backend engine, \textbf{ASP.NET Core SignalR} (WebSockets) for real-time pushing, an autonomous \textbf{Worker Service} for factory telemetry simulation and deterministic fault playback, and \textbf{Angular 19} (\textit{Signals}, \textit{vis-network}, \textit{Chart.js}) for the reactive operator dashboard. System reliability is thoroughly verified through \textbf{83 automated unit tests} using \textit{xUnit / FluentAssertions} and an experimental benchmark demonstrating end-to-end sub-second latency ($45.6$\,ms).
+
+\textbf{Keywords:} Digital Twin, Industry 4.0, OCP Group, Phosphate Processing, Clean Architecture, Domain-Driven Design, CQRS, MediatR, SignalR, BFS Algorithm, Impact Analysis, ASP.NET Core 9, Angular 19.

@@ -1,0 +1,3183 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.8.27)  27 AUG 2026 17:49
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@chapter=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(preamble.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+6.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count280
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2101.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count281
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babe
+l-french.tex)
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 4320.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.
+ldf
+Language: french 2026-06-06 v4.1a French support from the babel system
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3
+.ldf
+Language: french 2026-06-06 v3.7f French support from the babel system
+\FB@stdchar=\count282
+Package french3.ldf Info: No need for active punctuation characters
+(french3.ldf)             with this version of XeTeX!
+(french3.ldf)             reported on input line 147.
+\FB@punctthick=\XeTeXcharclass4
+\FB@punctthin=\XeTeXcharclass5
+\FB@punctnul=\XeTeXcharclass6
+\FB@guilo=\XeTeXcharclass7
+\FB@guilf=\XeTeXcharclass8
+\FB@guilnul=\XeTeXcharclass9
+\FBguill@level=\count283
+\FBold@everypar=\toks19
+\FB@Mht=\dimen150
+\mc@charclass=\count284
+\mc@charfam=\count285
+\mc@charslot=\count286
+\std@mcc=\count287
+\dec@mcc=\count288
+\listindentFB=\dimen151
+\descindentFB=\dimen152
+\labelwidthFB=\dimen153
+\labelfullwidthFB=\dimen154
+\FB@pardim=\dimen155
+\parindentFFN=\dimen156
+\FBfnindent=\dimen157
+)))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.st
+y
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+ (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
+y
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+\MT@toks=\toks21
+\MT@tempbox=\box53
+\MT@count=\count290
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks22
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen158
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count291
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xe
+tex.def
+File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip51
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cf
+g
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count292
+\Gm@cntv=\count293
+\c@Gm@tempcnt=\count294
+\Gm@bindingoffset=\dimen159
+\Gm@wd@mp=\dimen160
+\Gm@odd@mp=\dimen161
+\Gm@even@mp=\dimen162
+\Gm@layoutwidth=\dimen163
+\Gm@layoutheight=\dimen164
+\Gm@layouthoffset=\dimen165
+\Gm@layoutvoffset=\dimen166
+\Gm@dimlist=\toks23
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen167
+\ar@mcellbox=\box54
+\extrarowheight=\dimen168
+\NC@list=\toks24
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box55
+)
+\everycr=\toks25
+\minrowclearance=\skip54
+\rownum=\count295
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen169
+\lightrulewidth=\dimen170
+\cmidrulewidth=\dimen171
+\belowrulesep=\dimen172
+\belowbottomsep=\dimen173
+\aboverulesep=\dimen174
+\abovetopsep=\dimen175
+\cmidrulesep=\dimen176
+\cmidrulekern=\dimen177
+\defaultaddspace=\dimen178
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen179
+\@belowrulesep=\dimen180
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen181
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen182
+\TX@old@table=\dimen183
+\TX@old@col=\dimen184
+\TX@target=\dimen185
+\TX@delta=\dimen186
+\TX@cols=\count300
+\TX@ftn=\toks26
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count301
+\multirow@dima=\skip56
+\bigstrutjot=\dimen187
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.st
+y
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen188
+\c@nlinenum=\count302
+\TeXr@lab=\toks27
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen189
+\Gin@req@width=\dimen190
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen191
+\captionmargin=\dimen192
+\caption@leftmargin=\dimen193
+\caption@rightmargin=\dimen194
+\caption@width=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count305
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count306
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
+.sty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.s
+ty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-latex.def
+\pgfutil@abb=\box56
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs
+.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex
+)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore
+.sty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys
+.sty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+slibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
+\pgf@xd=\dimen265
+\pgf@yd=\dimen266
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count307
+\c@pgf@countb=\count308
+\c@pgf@countc=\count309
+\c@pgf@countd=\count310
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count311
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.
+cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-xetex.def
+File: pgfsys-xetex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)
+\pgfsys@objnum=\count312
+)))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+yssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count313
+\pgfsyssoftpath@bigbuffer@items=\count314
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+re.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil
+.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpars
+er.code.tex
+\pgfmath@dimen=\dimen267
+\pgfmath@count=\count315
+\pgfmath@box=\box57
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.basic.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.trigonometric.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.random.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.comparison.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.base.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.round.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.misc.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.integerarithmetics.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc
+.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloa
+t.code.tex
+\c@pgfmathroundto@lastzeros=\count316
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code
+.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen268
+\pgf@picmaxx=\dimen269
+\pgf@picminy=\dimen270
+\pgf@picmaxy=\dimen271
+\pgf@pathminx=\dimen272
+\pgf@pathmaxx=\dimen273
+\pgf@pathminy=\dimen274
+\pgf@pathmaxy=\dimen275
+\pgf@xx=\dimen276
+\pgf@xy=\dimen277
+\pgf@yx=\dimen278
+\pgf@yy=\dimen279
+\pgf@zx=\dimen280
+\pgf@zy=\dimen281
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen282
+\pgf@path@lasty=\dimen283
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen284
+\pgf@shorten@start@additional=\dimen285
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count317
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+regraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen286
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen287
+\pgf@pt@y=\dimen288
+\pgf@pt@temp=\dimen289
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+requick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen290
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen291
+\pgf@sys@shading@range@num=\count318
+\pgf@shadingcount=\count319
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box61
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+relayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box62
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.s
+ty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.
+sty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
+.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count320
+\pgfplotmarksize=\dimen296
+)
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count321
+\tikznumberofchildren=\count322
+\tikznumberofcurrentchild=\count323
+\tikz@fig@count=\count324
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count325
+\pgfmatrixcurrentcolumn=\count326
+\pgf@matrix@numberofcolumns=\count327
+)
+\tikz@expandcount=\count328
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.re
+vision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.co
+de.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscor
+e.code.tex
+\t@pgfplots@toka=\toks40
+\t@pgfplots@tokb=\toks41
+\t@pgfplots@tokc=\toks42
+\pgfplots@tmpa=\dimen305
+\c@pgfplots@coordindex=\count329
+\c@pgfplots@scanlineindex=\count330
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplot
+ssysgeneric.code.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplo
+tslibrary.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompa
+tib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompa
+tib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructure.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructureext.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count331
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsmatrix.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pg
+fplotstableshared.code.tex
+\c@pgfplotstable@counta=\count332
+\t@pgfplotstable@a=\toks46
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsdeque.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.data.code.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.verb.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflib
+rarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count333
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibr
+arypgfplots.surfshading.pgfsys-xetex.def
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibr
+arypgfplots.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count334
+))))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolormap.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolor.code.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotssta
+ckedplots.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplo
+thandlers.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplothandler.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplotimage.code.tex)))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sc
+aling.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoo
+rdprocessing.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.er
+rorbars.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.ma
+rkers.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstic
+ks.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pa
+ths.code.tex)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+edecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen306
+\pgfdecoratedremainingdistance=\dimen307
+\pgfdecoratedinputsegmentcompleteddistance=\dimen308
+\pgfdecoratedinputsegmentremainingdistance=\dimen309
+\pgf@decorate@distancetomove=\dimen310
+\pgf@decorate@repeatstate=\count335
+\pgfdecorationsegmentamplitude=\dimen311
+\pgfdecorationsegmentlength=\dimen312
+)
+\tikz@lib@dec@box=\box67
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzli
+brarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count336
+\pgfplots@xmin@reg=\dimen313
+\pgfplots@xmax@reg=\dimen314
+\pgfplots@ymin@reg=\dimen315
+\pgfplots@ymax@reg=\dimen316
+\pgfplots@zmin@reg=\dimen317
+\pgfplots@zmax@reg=\dimen318
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen319
+\pgfarrowlength=\dimen320
+\pgfarrowwidth=\dimen321
+\pgfarrowlinewidth=\dimen322
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box68
+\pgf@layerboxsaved@background=\box69
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count337
+\lst@gtempboxa=\box70
+\lst@token=\toks47
+\lst@length=\count338
+\lst@currlwidth=\dimen323
+\lst@column=\count339
+\lst@pos=\count340
+\lst@lostspace=\dimen324
+\lst@width=\dimen325
+\lst@newlines=\count341
+\lst@lineno=\count342
+\lst@maxwidth=\dimen326
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count343
+\lst@skipnumbers=\count344
+\lst@framebox=\box71
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cf
+g
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip57
+\f@nch@offset@elh=\skip58
+\f@nch@offset@erh=\skip59
+\f@nch@offset@olh=\skip60
+\f@nch@offset@orh=\skip61
+\f@nch@offset@elf=\skip62
+\f@nch@offset@erf=\skip63
+\f@nch@offset@olf=\skip64
+\f@nch@offset@orf=\skip65
+\f@nch@height=\skip66
+\f@nch@footalignment=\skip67
+\f@nch@widthL=\skip68
+\f@nch@widthC=\skip69
+\f@nch@widthR=\skip70
+\@temptokenb=\toks48
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
+y
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box72
+\beforetitleunit=\skip71
+\aftertitleunit=\skip72
+\ttl@plus=\dimen327
+\ttl@minus=\dimen328
+\ttl@toksa=\toks49
+\titlewidth=\dimen329
+\titlewidthlast=\dimen330
+\titlewidthfirst=\dimen331
+)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223     [\vspace{3pt}\titlerule[0.4pt]]
+                                         
+? 
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count345
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.
+sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen332
+\Hy@linkcounter=\count346
+\Hy@pagecounter=\count347
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count348
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4066
+.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count349
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen333
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count350
+\Field@Width=\dimen334
+\Fld@charsize=\dimen335
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring ON on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count351
+\c@Item=\count352
+\c@Hfootnote=\count353
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+\pdfm@box=\box73
+\c@Hy@AnnotLevel=\count354
+\HyField@AnnotCount=\count355
+\Fld@listcount=\count356
+\c@bookmark@seq@number=\count357
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip73
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks50
+\ex@=\dimen336
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen337
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count358
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count359
+\leftroot@=\count360
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count361
+\DOTSCASE@=\count362
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen338
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count363
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count364
+\dotsspace@=\muskip18
+\c@parentequation=\count365
+\dspbrk@lvl=\count366
+\tag@help=\toks51
+\row@=\count367
+\column@=\count368
+\maxfields@=\count369
+\andhelp@=\toks52
+\eqnshift@=\dimen339
+\alignsep@=\dimen340
+\tagshift@=\dimen341
+\tagwidth@=\dimen342
+\totwidth@=\dimen343
+\lineht@=\dimen344
+\@envbody=\toks53
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks54
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip77
+\enit@outerparindent=\dimen345
+\enit@toks=\toks55
+\enit@inbox=\box76
+\enit@count@id=\count370
+\enitdp@description=\count371
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.st
+y
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
+se.sty
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xe
+tex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count372
+\g__pdfannot_backend_int=\count373
+\g__pdfannot_backend_link_int=\count374
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2026-03-07 v2.37 Module abspage for zref (HO)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2026-03-07 v2.37 Module base for zref (HO)
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.st
+y
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count375
+Package zref Info: New property: abspage on input line 67.
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.st
+y
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
+\mdf@templength=\skip78
+\c@mdf@globalstyle@cnt=\count376
+\mdf@skipabove@length=\skip79
+\mdf@skipbelow@length=\skip80
+\mdf@leftmargin@length=\skip81
+\mdf@rightmargin@length=\skip82
+\mdf@innerleftmargin@length=\skip83
+\mdf@innerrightmargin@length=\skip84
+\mdf@innertopmargin@length=\skip85
+\mdf@innerbottommargin@length=\skip86
+\mdf@splittopskip@length=\skip87
+\mdf@splitbottomskip@length=\skip88
+\mdf@outermargin@length=\skip89
+\mdf@innermargin@length=\skip90
+\mdf@linewidth@length=\skip91
+\mdf@innerlinewidth@length=\skip92
+\mdf@middlelinewidth@length=\skip93
+\mdf@outerlinewidth@length=\skip94
+\mdf@roundcorner@length=\skip95
+\mdf@footenotedistance@length=\skip96
+\mdf@userdefinedwidth@length=\skip97
+\mdf@needspace@length=\skip98
+\mdf@frametitleaboveskip@length=\skip99
+\mdf@frametitlebelowskip@length=\skip100
+\mdf@frametitlerulewidth@length=\skip101
+\mdf@frametitleleftmargin@length=\skip102
+\mdf@frametitlerightmargin@length=\skip103
+\mdf@shadowsize@length=\skip104
+\mdf@extratopheight@length=\skip105
+\mdf@subtitleabovelinewidth@length=\skip106
+\mdf@subtitlebelowlinewidth@length=\skip107
+\mdf@subtitleaboveskip@length=\skip108
+\mdf@subtitlebelowskip@length=\skip109
+\mdf@subtitleinneraboveskip@length=\skip110
+\mdf@subtitleinnerbelowskip@length=\skip111
+\mdf@subsubtitleabovelinewidth@length=\skip112
+\mdf@subsubtitlebelowlinewidth@length=\skip113
+\mdf@subsubtitleaboveskip@length=\skip114
+\mdf@subsubtitlebelowskip@length=\skip115
+\mdf@subsubtitleinneraboveskip@length=\skip116
+\mdf@subsubtitleinnerbelowskip@length=\skip117
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.md
+f
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box77
+\mdf@footnotebox=\box78
+\mdf@splitbox@one=\box79
+\mdf@splitbox@two=\box80
+\mdf@splitbox@save=\box81
+\mdfsplitboxwidth=\skip118
+\mdfsplitboxtotalwidth=\skip119
+\mdfsplitboxheight=\skip120
+\mdfsplitboxdepth=\skip121
+\mdfsplitboxtotalheight=\skip122
+\mdfframetitleboxwidth=\skip123
+\mdfframetitleboxtotalwidth=\skip124
+\mdfframetitleboxheight=\skip125
+\mdfframetitleboxdepth=\skip126
+\mdfframetitleboxtotalheight=\skip127
+\mdffootnoteboxwidth=\skip128
+\mdffootnoteboxtotalwidth=\skip129
+\mdffootnoteboxheight=\skip130
+\mdffootnoteboxdepth=\skip131
+\mdffootnoteboxtotalheight=\skip132
+\mdftotallinewidth=\skip133
+\mdfboundingboxwidth=\skip134
+\mdfboundingboxtotalwidth=\skip135
+\mdfboundingboxheight=\skip136
+\mdfboundingboxdepth=\skip137
+\mdfboundingboxtotalheight=\skip138
+\mdf@freevspace@length=\skip139
+\mdf@horizontalwidthofbox@length=\skip140
+\mdf@verticalmarginwhole@length=\skip141
+\mdf@horizontalspaceofbox=\skip142
+\mdfsubtitleheight=\skip143
+\mdfsubsubtitleheight=\skip144
+\c@mdfcountframes=\count377
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count378
+\c@mdf@env@i=\count379
+\c@mdf@env@ii=\count380
+\c@mdf@zref@counter=\count381
+Package zref Info: New property: mdf@pagevalue on input line 895.
+))
+Package french3.ldf Info: Setting StandardItemizeEnv=true for
+(french3.ldf)             compatibility with enumitem package,
+(french3.ldf)             reported on input line 6.
+Package french3.ldf Info: Setting StandardEnumerateEnv=true for
+(french3.ldf)             compatibility with enumitem package,
+(french3.ldf)             reported on input line 6.
+ (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Info: Redefining \degres on input line 6.
+LaTeX Info: Redefining \microtypecontext on input line 6.
+Package microtype Info: Applying patch `item' on input line 6.
+Package microtype Info: Applying patch `toc' on input line 6.
+Package microtype Info: Applying patch `eqnum' on input line 6.
+Package microtype Info: Applying patch `footnote' on input line 6.
+Package microtype Info: Applying patch `verbatim' on input line 6.
+LaTeX Info: Redefining \microtypesetup on input line 6.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(79.6678pt, 446.70819pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=446.70819pt
+* \textheight=702.78308pt
+* \oddsidemargin=7.39781pt
+* \evensidemargin=7.39781pt
+* \topmargin=-40.1381pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+\c@lstlisting=\count382
+Package hyperref Info: Link coloring ON on input line 6.
+(main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(chapters/00_page_de_garde.tex [1
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+2.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+2.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+12.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+12.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 26.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 26.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 26.
+
+Underfull \hbox (badness 4291) in paragraph at lines 41--42
+[]|\T1/lmr/bx/n/10.95 [NOM ET PRÉ-NOM DE L'ÉTU-
+ []
+
+[1]) (chapters/00_remerciements.tex
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+.
+
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+! Argument of \ttl@rule@i has an extra }.
+<inserted text> 
+                \par 
+l.1 \chapter*{Remerciements}
+                            
+? 
+Runaway argument?
+0.4pt\@@par \ttl@endlongest \fi \endgroup 
+! Paragraph ended before \ttl@rule@i was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter*{Remerciements}
+                            
+? 
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.1 \chapter*{Remerciements}
+                            
+? 
+
+Overfull \hbox (9.59988pt too wide) in paragraph at lines 10--11
+[]\T1/lmss/bx/n/20.74 Mes re-mer-cie-ments s'adressent éga-le-ment à mon
+ []
+
+
+Overfull \hbox (4.48128pt too wide) in paragraph at lines 10--11
+\T1/lmss/bx/n/20.74 reux, ses exi-gences mé-tho-do-lo-giques et ses orien-
+ []
+
+[1
+
+
+]
+Overfull \hbox (2.1688pt too wide) in paragraph at lines 12--13
+\T1/lmss/bx/n/20.74 son ac-com-pa-gne-ment, ses ex-pli-ca-tions dé-taillées
+ []
+
+) [2] (chapters/00_resume.tex
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 \chapter*{Résumé}
+                     
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter*{Résumé}
+                     
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter*{Résumé}
+                     
+? 
+
+Overfull \hbox (10.77884pt too wide) in paragraph at lines 4--5
+\T1/lmss/bx/n/20.74 sentent une forte in-ter-dé-pen-dance. La dé-faillance
+ []
+
+
+Overfull \hbox (25.12027pt too wide) in paragraph at lines 4--5
+\T1/lmss/bx/n/20.74 non an-ti-ci-pée d'une ma-chine amont (ex. un cog character: There is no œ in font ec-lmssbx10!
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <20.74> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 8.
+
+Overfull \hbox (3.98001pt too wide) in paragraph at lines 8--9
+\T1/lmss/bx/n/20.74 ca-tions anti-rebond thread-safe (\T1/lmss/bx/sl/20.74 Aler
+t-Cool-down-
+ []
+
+[3
+
+
+]
+Overfull \hbox (2.1296pt too wide) in paragraph at lines 12--13
+\T1/lmss/bx/n/20.74 CQRS, Me-diatR, Si-gnalR, Al-go-rithme BFS, Ana-
+ []
+
+[4]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \section*
+              {Abstract}
+? 
+
+Overfull \hbox (1.13914pt too wide) in paragraph at lines 20--21
+\T1/lmss/bx/n/20.74 ra-tio-nal conti-nuity in in-dus-trial pro-ces-sing plants
+ []
+
+
+Overfull \hbox (6.225pt too wide) in paragraph at lines 22--23
+\T1/lmss/bx/n/20.74 im-ple-men-ta-tion of an in-dus-trial Di-gi-tal Twin soft-
+ []
+
+
+Overfull \hbox (36.11037pt too wide) in paragraph at lines 24--25
+\T1/lmss/bx/sl/20.74 Ser-vice \T1/lmss/bx/n/20.74 exe-cu-ting a multi-level Bre
+adth-First Search
+ []
+
+
+Overfull \hbox (18.63805pt too wide) in paragraph at lines 24--25
+\T1/lmss/bx/n/20.74 (BFS) graph tra-ver-sal with cycle pre-ven-tion across
+ []
+
+[5])
+Overfull \hbox (19.58511pt too wide) in paragraph at lines 28--23
+[]\T1/lmss/bx/n/20.74 Keywords : Di-gi-tal Twin, In-dus-try 4.0, OCP Group,
+ []
+
+
+Overfull \hbox (25.74985pt too wide) in paragraph at lines 28--23
+\T1/lmss/bx/n/20.74 Clean Ar-chi-tec-ture, Domain-Driven De-sign, CQRS,
+ []
+
+[6] [7]
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.28     \tableofcontents
+                         
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.28     \tableofcontents
+                         
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.28     \tableofcontents
+                         
+? 
+No file main.toc.
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+[8
+
+
+]
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.30     \listoffigures
+                       
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.30     \listoffigures
+                       
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.30     \listoffigures
+                       
+? dir main.pdf
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
+No file main.lof.
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+[9
+
+
+]
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.32     \listoftables
+                      
+? e read again> 
+                   \par 
+l.32     \listoftables
+                      
+? 
+No file main.lot.
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+[10
+
+
+] (chapters/00_abreviations.tex
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 \chapter*{Liste des Sigles et Abréviations}
+                                               
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter*{Liste des Sigles et Abréviations}
+                                               
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter*{Liste des Sigles et Abréviations}
+                                               
+? 
+
+Underfull \hbox (badness 10000) in alignment at lines 37--37
+[][] 
+ []
+
+) [11
+
+
+] (chapters/01_introduction.tex
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 \chapter*{Introduction Générale}
+                                    
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter*{Introduction Générale}
+                                    
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter*{Introduction Générale}
+                                    
+? 
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \section*
+             {1. Contexte Général : L'Industrie 4.0 et les Systèmes Cyber-Ph...
+
+? 
+
+Overfull \hbox (9.16179pt too wide) in paragraph at lines 6--7
+\T1/lmss/bx/n/20.74 tion et de ges-tion des in-fra-struc-tures in-dus-trielles.
+
+ []
+
+
+Overfull \hbox (6.74196pt too wide) in paragraph at lines 6--7
+\T1/lmss/bx/n/20.74 al-go-rithmes dé-ci-sion-nels), don-nant nais-sance aux
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \section*
+              {2. Le Concept de Jumeau Numérique (Digital Twin)}
+? 
+[1
+
+
+]
+Missing character: There is no œ in font ec-lmssbx10!
+
+LaTeX Warning: Citation `grieves2014digital' on page 2 undefined on input line 
+12.
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \section*
+              {3. Contexte Industriel et Problématique OCP}
+? 
+
+Overfull \hbox (2.18655pt too wide) in paragraph at lines 21--22
+[]\T1/lmss/bx/n/20.74 section[]3. Contexte In-dus-triel et Pro-blé-ma-tique
+ []
+
+[2]
+Overfull \hbox (18.81868pt too wide) in paragraph at lines 25--27
+\T1/lmss/bx/n/20.74 tra-di-tion-nels pré-sentent deux li-mites struc-tu-relles 
+: 
+ []
+
+
+Overfull \hbox (30.98549pt too wide) in paragraph at lines 27--28
+[]\T1/lmss/bx/n/20.74 Absence de cor-ré-la-tion to-po-lo-gique : Les alarmes
+ []
+
+[3]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \section*
+              {4. Objectifs du Projet}
+? 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 33.
+[4]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \section*
+              {5. Organisation du Rapport}
+? 
+[5]) [6] (chapters/02_organisme_contexte.tex
+Chapitre 1.
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 ...tation de l'Organisme et Contexte du Stage}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 ...tation de l'Organisme et Contexte du Stage}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 ...tation de l'Organisme et Contexte du Stage}
+                                                  
+? 
+
+Overfull \hbox (4.01576pt too wide) in paragraph at lines 1--2
+[]\T1/lmss/bx/n/20.74 chapterPrésentation de l'Or-ga-nisme et Contexte
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...Groupe OCP : Acteur Mondial des Phosphates}
+                                                  
+? 
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...aîne de Traitement et Processus Industriel}
+                                                  
+? 
+
+Overfull \hbox (9.42407pt too wide) in paragraph at lines 9--10
+\T1/lmss/bx/n/20.74 im-plique une suc-ces-sion d'opé-ra-tions mé-ca-niques
+ []
+
+[7
+
+
+]
+Overfull \hbox (12.4717pt too wide) in paragraph at lines 13--14
+\T1/lmss/bx/n/20.74 tion gra-nu-lo-mé-trique des blocs de roche brute ; 
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...Entité d'Accueil et la Stratégie Digitale}
+                                                  
+? 
+[8]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \section{Positionnement et Cadre du Projet}
+                                                
+? 
+
+Overfull \hbox (104.21883pt too wide) in paragraph at lines 27--28
+[]\T1/lmss/bx/n/20.74 section[Positionnement et Cadre du Pro-jet]Positionnement
+
+ []
+
+) [9] [10] (chapters/03_analyse_besoins.tex
+Chapitre 2.
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 ...de l'Existant et Spécification des Besoins}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 ...de l'Existant et Spécification des Besoins}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 ...de l'Existant et Spécification des Besoins}
+                                                  
+? 
+
+Overfull \hbox (4.14636pt too wide) in paragraph at lines 1--2
+[]\T1/lmss/bx/n/20.74 chapterAnalyse de l'Exis-tant et Spé-ci-fi-ca-tion des
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...des Systèmes de Supervision Conventionnels}
+                                                  
+? 
+
+Overfull \hbox (25.86447pt too wide) in paragraph at lines 5--6
+\T1/lmss/bx/n/20.74 Data Ac-qui-si-tion). Si ces sys-tèmes s'avèrent fiables
+ []
+
+
+Overfull \hbox (10.84863pt too wide) in paragraph at lines 9--10
+\T1/lmss/bx/n/20.74 cog-ni-tive dé-sen-si-bi-lise l'opé-ra-teur et peut mas-
+ []
+
+[11
+
+
+]
+Overfull \hbox (0.86969pt too wide) in paragraph at lines 10--11
+\T1/lmss/bx/n/20.74 la to-po-lo-gie du ré-seau de pro-duc-tion. Lorsque
+ []
+
+
+Overfull \hbox (6.33188pt too wide) in paragraph at lines 10--11
+\T1/lmss/bx/n/20.74 l'opé-ra-teur doit dé-duire men-ta-le-ment les équi-
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...e Comparative : SCADA vs Jumeau Numérique}
+                                                  
+? 
+
+LaTeX Warning: Reference `tab:comparaison_scada_dt' on page 12 undefined on inp
+ut line 16.
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 21.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/lmr/bx/sc/10 Propagation d'im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/lmr/bx/sc/10 Architecture lo-gi-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 34--34
+[]|\T1/lmr/bx/sc/10 Expérience uti-li-sa-
+ []
+
+[12]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ...on{Spécification des Besoins Fonctionnels}
+                                                  
+? 
+
+Overfull \hbox (111.59508pt too wide) in paragraph at lines 37--38
+[]\T1/lmss/bx/n/20.74 section[Spécification des Be-soins Fonc-tion-nels]Spécifi
+cation
+ []
+
+
+Overfull \hbox (2.71431pt too wide) in paragraph at lines 42--43
+\T1/lmss/bx/n/20.74 bit, ni-veau) ho-ro-da-tées à haute fré-quence. 
+ []
+
+
+Overfull \hbox (13.6456pt too wide) in paragraph at lines 43--44
+[]\T1/lmss/bx/n/20.74 Évaluation dy-na-mique des ano-ma-lies : Ana-
+ []
+
+[13]
+Overfull \hbox (8.20409pt too wide) in paragraph at lines 44--45
+[]\T1/lmss/bx/n/20.74 Régulation anti-rebond (\T1/lmss/bx/sl/20.74 Alert Co-ol-
+down\T1/lmss/bx/n/20.74 ) :
+ []
+
+
+Overfull \hbox (7.32962pt too wide) in paragraph at lines 44--45
+\T1/lmss/bx/n/20.74 Mé-ca-nisme de tem-po-ri-sa-tion glis-sante em-
+ []
+
+
+Overfull \hbox (3.03503pt too wide) in paragraph at lines 45--46
+\T1/lmss/bx/n/20.74 dance de l'usine pour iden-ti-fier l'en-semble
+ []
+
+
+Overfull \hbox (0.4492pt too wide) in paragraph at lines 46--47
+\T1/lmss/bx/n/20.74 (\T1/lmss/bx/sl/20.74 Ac-tive\T1/lmss/bx/n/20.74 , \T1/lmss
+/bx/sl/20.74 Ack-now-led-ged\T1/lmss/bx/n/20.74 , \T1/lmss/bx/sl/20.74 Re-sol-v
+ed\T1/lmss/bx/n/20.74 ) et pos-
+ []
+
+
+Overfull \hbox (34.21408pt too wide) in paragraph at lines 47--48
+[]\T1/lmss/bx/n/20.74 Cartographie to-po-lo-gique in-ter-ac-tive : Rendu
+ []
+
+[14]
+Overfull \hbox (5.14449pt too wide) in paragraph at lines 49--50
+[]\T1/lmss/bx/n/20.74 Moteur de si-mu-la-tion et re-jeu d'in-ci-dents :
+ []
+
+
+Overfull \hbox (9.17105pt too wide) in paragraph at lines 49--50
+\T1/lmss/bx/n/20.74 Gé-né-ra-teur de flux syn-thé-tiques au-to-nome
+ []
+
+
+Overfull \hbox (13.26761pt too wide) in paragraph at lines 49--50
+\T1/lmss/bx/n/20.74 ca-pable d'exé-cu-ter des scé-na-rios de pannes
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...pécification des Besoins Non-Fonctionnels}
+                                                  
+? 
+
+Overfull \hbox (158.72083pt too wide) in paragraph at lines 52--53
+[]\T1/lmss/bx/n/20.74 section[Spécification des Be-soins Non-Fonctionnels]Spéci
+fication
+ []
+
+[15]
+Overfull \hbox (11.19112pt too wide) in paragraph at lines 58--59
+\T1/lmss/bx/n/20.74 ment en-cap-su-lées et pro-té-gées contre les états
+ []
+
+Missing character: There is no œ in font ec-lmssbx10!
+
+Overfull \hbox (13.14912pt too wide) in paragraph at lines 59--60
+\T1/lmss/bx/n/20.74 sage d'un si-mu-la-teur à un bro-ker MQTT/OPC-
+ []
+
+Missing character: There is no œ in font ec-lmssbx10!
+[16]) [17] (chapters/04_conception_architecture.tex
+Chapitre 3.
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 ...{Conception et Modélisation Architecturale}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 ...{Conception et Modélisation Architecturale}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 ...{Conception et Modélisation Architecturale}
+                                                  
+? 
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \section{Architecture Globale du Système}
+                                             
+? 
+
+Overfull \hbox (56.84218pt too wide) in paragraph at lines 3--4
+[]\T1/lmss/bx/n/20.74 section[Architecture Glo-bale du Sys-tème]Architecture
+ []
+
+
+Overfull \hbox (42.39613pt too wide) in paragraph at lines 8--9
+[]\T1/lmss/bx/n/20.74 Le Si-mu-la-teur In-dus-triel (\T1/lmss/bx/sl/20.74 Di-gi
+-talT-win.Simulator\T1/lmss/bx/n/20.74 ) :
+ []
+
+
+Overfull \hbox (2.70049pt too wide) in paragraph at lines 8--9
+\T1/lmss/bx/n/20.74 Un ser-vice d'arrière-plan (\T1/lmss/bx/sl/20.74 Wor-ker Se
+r-vice\T1/lmss/bx/n/20.74 ) au-
+ []
+
+
+Overfull \hbox (4.62212pt too wide) in paragraph at lines 9--10
+\T1/lmss/bx/n/20.74 la per-sis-tance et le cal-cul de pro-pa-ga-tion d'im-
+ []
+
+
+Overfull \hbox (6.64954pt too wide) in paragraph at lines 11--12
+[]\T1/lmss/bx/n/20.74 L'Interface Uti-li-sa-teur Ré-ac-tive (Fron-tend An-
+ []
+
+[18
+
+
+]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \section{Organisation en Clean Architecture}
+                                                 
+? 
+
+Overfull \hbox (81.23033pt too wide) in paragraph at lines 14--15
+[]\T1/lmss/bx/n/20.74 section[Organisation en Clean Ar-chi-tec-ture]Organisatio
+n
+ []
+
+
+LaTeX Warning: Citation `martin2017clean' on page 19 undefined on input line 16
+.
+
+
+LaTeX Warning: Reference `fig:clean_architecture' on page 19 undefined on input
+ line 18.
+
+Missing character: There is no œ in font ec-lmssbx10!
+
+Overfull \hbox (4.18071pt too wide) in paragraph at lines 72--73
+[]\T1/lmss/bx/n/20.74 DigitalTwin.Domain (Cur Mé-tier) : La couche
+ []
+
+
+Overfull \hbox (28.31956pt too wide) in paragraph at lines 72--73
+\T1/lmss/bx/n/20.74 en-ti-tés de l'usine, les règles de va-li-da-tion strictes
+ []
+
+
+Overfull \hbox (7.88193pt too wide) in paragraph at lines 73--74
+\T1/lmss/bx/n/20.74 Dé-fi-nit les flux ap-pli-ca-tifs via le pat-tern CQRS,
+ []
+
+[19]
+Overfull \hbox (8.36513pt too wide) in paragraph at lines 74--75
+[]\T1/lmss/bx/n/20.74 DigitalTwin.Infrastructure (Adap-ta-teurs Tech-
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...n{Principes du Domain-Driven Design (DDD)}
+                                                  
+? 
+
+Overfull \hbox (124.60281pt too wide) in paragraph at lines 78--79
+[]\T1/lmss/bx/n/20.74 section[Principes du Domain-Driven De-sign (DDD)]Principe
+s
+ []
+
+[20]
+
+LaTeX Warning: Citation `evans2003domain' on page 21 undefined on input line 80
+.
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \subsection{Agrégats et Entités du Domaine}
+                                                
+? 
+
+Overfull \hbox (47.64906pt too wide) in paragraph at lines 82--83
+[]\T1/lmss/bx/n/20.74 subsection[Agrégats et En-ti-tés du Do-maine]Agrégats
+ []
+
+
+Overfull \hbox (1.2865pt too wide) in paragraph at lines 86--87
+[]\T1/lmss/bx/n/20.74 Plant (Ra-cine d'Agré-gat) : Re-pré-sente l'unité
+ []
+
+
+Overfull \hbox (2.1407pt too wide) in paragraph at lines 87--88
+\T1/lmss/bx/n/20.74 équi-pe-ment phy-sique (concas-seur, convoyeur,
+ []
+
+
+Overfull \hbox (10.85918pt too wide) in paragraph at lines 88--89
+\T1/lmss/bx/n/20.74 de to-lé-rance (\T1/lmss/bx/sl/20.74 War-ning-Thre-shold\T1
+/lmss/bx/n/20.74 , \T1/lmss/bx/sl/20.74 Cri-ti-cal-Thre-
+ []
+
+[21]
+Overfull \hbox (6.69543pt too wide) in paragraph at lines 90--91
+[]\T1/lmss/bx/n/20.74 MachineDependency (En-tité de Liai-son) : Ma-
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...on des Invariants Métier : Le DomainGuard}
+                                                  
+? 
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
+5.
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 95.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 97.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 97.
+ [22]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 112.
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ...des Responsabilités avec CQRS et MediatR}
+                                                  
+? 
+
+Overfull \hbox (22.8196pt too wide) in paragraph at lines 114--115
+[]\T1/lmss/bx/n/20.74 section[Séparation des Res-pon-sa-bi-li-tés avec CQRS
+ []
+
+
+LaTeX Warning: Citation `fowler2002patterns' on page 23 undefined on input line
+ 116.
+
+
+LaTeX Warning: Reference `fig:cqrs_flow' on page 23 undefined on input line 118
+.
+
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...ediator] (cmdhandler) {Command Handler\\(
+                                                  Ex: IngestReading)};
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 ...ediator] (queryhandler) {Query Handler\\(
+                                                  Ex: GetPlantGraph)};
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...=2.2cm of cmdhandler] (db) {SQL Server\\(
+                                                  EF Core)};
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 ...ow=1.2cm of db] (signalr) {SignalR Hub\\(
+                                                  Temps Réel)};
+? 
+
+Overfull \hbox (288.18958pt too wide) in paragraph at lines 152--153
+ [][] 
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...on{Machine d'États Finis d'un Équipement}
+                                                  
+? 
+
+Overfull \hbox (80.91469pt too wide) in paragraph at lines 157--158
+[]\T1/lmss/bx/n/20.74 section[Machine d'États Fi-nis d'un Équi-pe-ment]Machine
+ []
+
+
+LaTeX Warning: Reference `fig:machine_fsm' on page 23 undefined on input line 1
+59.
+
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 ...stnominal] (nominal) {\textbf{NOMINAL}\\(
+                                                  Régime Nominal)};
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 ...f nominal] (warning) {\textbf{WARNING}\\(
+                                                  Alerte Dérive)};
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 ...warning] (critical) {\textbf{CRITICAL}\\(
+                                                  Défaillance Critique)};
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...nominal] (degraded) {\textbf{DEGRADED}\\(
+                                                  Impact Amont)};
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...egraded] (maint) {\textbf{MAINTENANCE}\\(
+                                                  Hors Service)};
+? 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 176.
+
+Overfull \hbox (123.77626pt too wide) in paragraph at lines 187--188
+ [][] 
+ []
+
+[23]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 ...u sous Forme de Graphe et Algorithme BFS}
+                                                  
+? 
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194 ...on{Formalisation du Graphe de Production}
+                                                  
+? 
+
+Overfull \vbox (13.84406pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \hbox (2.2445pt too wide) in paragraph at lines 199--200
+\T1/lmss/bx/n/20.74 tions de dé-pen-dance orien-tées. Un arc $\OT1/lmr/m/n/20.7
+4 (\OML/lmm/m/it/20.74 u; v\OT1/lmr/m/n/20.74 ) \OMS/lmsy/m/n/20.74 2
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...en Largeur (BFS) pour l'Analyse d'Impact}
+                                                  
+? 
+
+Overfull \hbox (11.56044pt too wide) in paragraph at lines 204--205
+\T1/lmss/bx/n/20.74 pe-ment $\OML/lmm/m/it/20.74 v[]$\T1/lmss/bx/n/20.74 , le s
+er-vice \T1/lmtt/b/n/20.74 ImpactAnalysisService
+ []
+
+[25]
+
+LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 212.
+
+[26]
+
+LaTeX Warning: Reference `fig:bfs_propagation' on page 27 undefined on input li
+ne 256.
+
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.269 ...node[sourcenode] (cr) {\textbf{CR-001}\\C
+                                                  oncasseur\\{\scriptsize Pr...
+
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.269 ...ode] (cr) {\textbf{CR-001}\\Concasseur\\{
+                                                  \scriptsize Profondeur $d=...
+
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 ...de, right=of cr] (cv) {\textbf{CV-001}\\C
+                                                  onvoyeur\\{\scriptsize Pro...
+
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 ...f cr] (cv) {\textbf{CV-001}\\Convoyeur\\{
+                                                  \scriptsize Profondeur $d=...
+
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...de, right=of cv] (sc) {\textbf{SC-001}\\C
+                                                  rible\\{\scriptsize Profon...
+
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...t=of cv] (sc) {\textbf{SC-001}\\Crible\\{
+                                                  \scriptsize Profondeur $d=...
+
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 ...de, right=of sc] (fl) {\textbf{FL-001}\\F
+                                                  lottation\\{\scriptsize Pr...
+
+? 
+
+! LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 ... sc] (fl) {\textbf{FL-001}\\Flottation\\{
+                                                  \scriptsize Profondeur $d=...
+
+? 
+
+Overfull \hbox (316.7264pt too wide) in paragraph at lines 285--286
+ [][] 
+ []
+
+) [27] (chapters/05_implementation_technique.tex
+Chapitre 4.
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 ...mentation Logicielle et Système Temps Réel}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 ...mentation Logicielle et Système Temps Réel}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 ...mentation Logicielle et Système Temps Réel}
+                                                  
+? 
+
+Overfull \hbox (41.14586pt too wide) in paragraph at lines 1--2
+[]\T1/lmss/bx/n/20.74 chapterImplémentation Lo-gi-cielle et Sys-tème Temps
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...ologique et Environnement de Développement}
+                                                  
+? 
+
+Overfull \hbox (10.15962pt too wide) in paragraph at lines 8--9
+[]\T1/lmss/bx/n/20.74 Médiation & Temps Réel : Me-diatR 12 (CQRS
+ []
+
+
+Overfull \hbox (20.22263pt too wide) in paragraph at lines 8--9
+\T1/lmss/bx/n/20.74 intra-processus), ASP.NET Core Si-gnalR (Web-
+ []
+
+
+Overfull \hbox (8.86664pt too wide) in paragraph at lines 9--10
+[]\T1/lmss/bx/n/20.74 Persistance : Mi-cro-soft SQL Ser-ver / Lo-calDB
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...ion{Le Cœur Métier : Le DigitalTwinEngine}
+                                                  
+? 
+Missing character: There is no œ in font ec-lmssbx10!
+Missing character: There is no œ in font ec-lmssbx10!
+
+Overfull \hbox (2.8028pt too wide) in paragraph at lines 14--15
+[]\T1/lmss/bx/n/20.74 section[Le Cur Mé-tier : Le Di-gi-talT-wi-nEn-gine]Le
+ []
+
+
+Overfull \hbox (3.48961pt too wide) in paragraph at lines 16--17
+[]\T1/lmss/bx/n/20.74 Le \T1/lmtt/b/n/20.74 DigitalTwinEngine \T1/lmss/bx/n/20.
+74 est le ser-vice cen-tral d'or-
+ []
+
+[28
+
+
+]
+
+LaTeX Warning: Reference `fig:engine_pipeline' on page 29 undefined on input li
+ne 18.
+
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 52.
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \section{Services Spécialisés du Backend}
+                                              
+? 
+
+Overfull \hbox (5.56282pt too wide) in paragraph at lines 78--79
+[]\T1/lmss/bx/n/20.74 section[Services Spé-cia-li-sés du Ba-ckend]Services
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 ...ion d'Anomalies : AnomalyDetectionService}
+                                                  
+? 
+[29]
+Overfull \hbox (1.82143pt too wide) in paragraph at lines 80--81
+[]\T1/lmss/bx/n/20.74 subsection[Détection d'Ano-ma-lies : Ano-ma-ly-De-
+ []
+
+
+Overfull \hbox (58.02042pt too wide) detected at line 90
+[][][][]\OT1/lmr/m/n/20.74 (\OML/lmm/m/it/20.74 v\OT1/lmr/m/n/20.74 ) = []
+ []
+
+[30]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...lation Anti-Rebond : AlertCooldownService}
+                                                  
+? 
+
+Overfull \hbox (14.58727pt too wide) in paragraph at lines 92--93
+\T1/lmss/bx/n/20.74 down-Ser-vice]Régulation Anti-Rebond : Alert-Cool-
+ []
+
+
+Overfull \hbox (138.11948pt too wide) in paragraph at lines 94--95
+[]\T1/lmss/bx/n/20.74 Pour éli-mi-ner l'inon-da-tion d'alarmes, le \T1/lmtt/b/n
+/20.74 AlertCooldownService
+ []
+
+
+Overfull \hbox (3.51755pt too wide) in paragraph at lines 94--95
+\T1/lmss/bx/n/20.74 safe (\T1/lmtt/b/n/20.74 ConcurrentDictionary<Guid, DateTim
+e>\T1/lmss/bx/n/20.74 )
+ []
+
+[31]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 ...de Communication Temps Réel avec SignalR}
+                                                  
+? 
+
+Overfull \hbox (1.24036pt too wide) in paragraph at lines 118--119
+\T1/lmss/bx/n/20.74 ckets ASP.NET Core Si-gnalR (\T1/lmtt/b/n/20.74 DigitalTwin
+Hub\T1/lmss/bx/n/20.74 ).
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 \section{Le Simulateur Industriel Autonome}
+                                                 
+? 
+
+Overfull \hbox (8.41539pt too wide) in paragraph at lines 127--129
+[]\T1/lmss/bx/n/20.74 Le si-mu-la-teur d'usine est dé-ve-loppé sous la forme
+ []
+
+[32]
+Overfull \hbox (46.20976pt too wide) in paragraph at lines 129--130
+\T1/lmss/bx/n/20.74 dans la plage no-mi-nale (ex. vi-bra-tion $\OML/lmm/m/it/20
+.74 < \OT1/lmr/m/n/20.74 3\OML/lmm/m/it/20.74 :\OT1/lmr/m/n/20.74 5$\T1/lmss/bx
+/n/20.74 mm/s) ; 
+ []
+
+[33]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...de l'Interface de Supervision Angular 19}
+                                                  
+? 
+
+Overfull \hbox (11.29366pt too wide) in paragraph at lines 142--143
+\T1/lmss/bx/n/20.74 ac-tives et les in-di-ca-teurs syn-thé-tiques de santé
+ []
+
+Missing character: There is no œ in font ec-lmssbx10!
+
+Overfull \hbox (22.13725pt too wide) in paragraph at lines 143--144
+\T1/lmss/bx/n/20.74 Car-to-gra-phie to-po-lo-gique in-ter-ac-tive où chaque
+ []
+
+[34]) [35] (chapters/06_validation_resultats.tex
+Chapitre 5.
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 ...sts, Validation Expérimentale et Résultats}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 ...sts, Validation Expérimentale et Résultats}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 ...sts, Validation Expérimentale et Résultats}
+                                                  
+? 
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...gie Globale de Test et d'Assurance Qualité}
+                                                  
+? 
+
+Overfull \hbox (3.81589pt too wide) in paragraph at lines 3--4
+[]\T1/lmss/bx/n/20.74 section[Stratégie Glo-bale de Test et d'As-su-rance
+ []
+
+
+Overfull \hbox (6.18922pt too wide) in paragraph at lines 3--4
+\T1/lmss/bx/n/20.74 Qua-lité]Stratégie Glo-bale de Test et d'As-su-rance
+ []
+
+Missing character: There is no œ in font ec-lmssbx10!
+Missing character: There is no œ in font ec-lmssbx10!
+
+Overfull \hbox (5.30353pt too wide) in paragraph at lines 10--11
+\T1/lmss/bx/n/20.74 et Karma va-li-dant le rendu et la ges-tion d'état
+ []
+
+[36
+
+
+]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ... Tests Unitaires Backend (.NET 9 / xUnit)}
+                                                  
+? 
+
+LaTeX Warning: Reference `tab:tests_backend' on page 37 undefined on input line
+ 16.
+
+Missing character: There is no œ in font ec-lmbx10!
+Missing character: There is no œ in font ec-lmbx10!
+Missing character: There is no œ in font ec-lmbx10!
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...dation de l'Algorithme de Propagation BFS}
+                                                  
+? 
+[37]
+Overfull \hbox (22.38773pt too wide) in paragraph at lines 42--43
+[]\T1/lmss/bx/n/20.74 Complétude : Toutes les ma-chines avals connec-
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...mentale sur le Scénario Concasseur CR-001}
+                                                  
+? 
+
+Overfull \hbox (7.3872pt too wide) in paragraph at lines 47--48
+\T1/lmss/bx/n/20.74 rio Concas-seur CR-001]Validation Ex-pé-ri-men-tale
+ []
+
+
+LaTeX Warning: Reference `fig:scenario_cr001' on page 38 undefined on input lin
+e 49.
+
+[38]
+Overfull \hbox (0.51042pt too wide) in paragraph at lines 111--112
+\T1/lmss/bx/n/20.74 tique de $\OT1/lmr/m/n/20.74 7\OML/lmm/m/it/20.74 :\OT1/lmr
+/m/n/20.74 0$\T1/lmss/bx/n/20.74 mm/s. Le \T1/lmtt/b/n/20.74 DigitalTwinEngine 
+\T1/lmss/bx/n/20.74 dé-
+ []
+
+[39]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 ...esures de Performance et Latence Système}
+                                                  
+? 
+
+Overfull \hbox (0.35582pt too wide) in paragraph at lines 116--117
+[]\T1/lmss/bx/n/20.74 section[Mesures de Per-for-mance et La-tence Sys-
+ []
+
+
+Overfull \hbox (18.767pt too wide) in paragraph at lines 120--121
+[]\T1/lmss/bx/n/20.74 Temps d'exé-cu-tion du pi-pe-line ba-ckend (étapes
+ []
+
+Missing character: There is no œ in font ec-lmssbx10!
+[40]
+Overfull \hbox (3.89337pt too wide) in paragraph at lines 123--124
+\T1/lmss/bx/n/20.74 teur : $\OT1/lmr/m/n/20.74 45\OML/lmm/m/it/20.74 :\OT1/lmr/
+m/n/20.74 6$\T1/lmss/bx/n/20.74 ms (lar-ge-ment in-fé-rieur à l'exi-gence
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 \section{Synthèse de Validation des Besoins}
+                                                  
+? 
+
+Overfull \hbox (43.48587pt too wide) in paragraph at lines 126--127
+[]\T1/lmss/bx/n/20.74 section[Synthèse de Va-li-da-tion des Be-soins]Synthèse
+ []
+
+) [41] (chapters/07_conclusion_perspectives.tex
+Chapitre 6.
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 \chapter{Conclusion Générale et Perspectives}
+                                                 
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter{Conclusion Générale et Perspectives}
+                                                 
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 \chapter{Conclusion Générale et Perspectives}
+                                                 
+? 
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...{Bilan Technique et Réalisations du Projet}
+                                                  
+? 
+Missing character: There is no œ in font ec-lmssbx10!
+
+Overfull \hbox (37.9446pt too wide) in paragraph at lines 9--10
+\T1/lmss/bx/n/20.74 Ar-chi-tec-ture et du Domain-Driven De-sign (DDD)
+ []
+
+
+Overfull \hbox (132.78394pt too wide) in paragraph at lines 11--12
+\T1/lmss/bx/n/20.74 mique : Dé-ve-lop-pe-ment du ser-vice \T1/lmtt/b/n/20.74 Im
+pactAnalysisService
+ []
+
+[42
+
+
+]
+Missing character: There is no œ in font ec-lmssbx10!
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...tion{Apports Personnels et Professionnels}
+                                                  
+? 
+
+Overfull \hbox (51.12733pt too wide) in paragraph at lines 16--17
+[]\T1/lmss/bx/n/20.74 section[Apports Per-son-nels et Pro-fes-sion-nels]Apports
+
+ []
+
+
+Overfull \hbox (8.47894pt too wide) in paragraph at lines 20--21
+\T1/lmss/bx/n/20.74 sys-tème .NET 9 mo-derne, des pa-trons de concep-
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...spectives d'Évolution et Feuille de Route}
+                                                  
+? 
+[43]
+Overfull \hbox (25.10039pt too wide) in paragraph at lines 22--23
+\T1/lmss/bx/n/20.74 Route]Perspectives d'Évo-lu-tion et Feuille de Route 
+ []
+
+[44]) [45]
+No file main.bbl.
+(chapters/08_annexes.tex
+Annexe A.
+! Argument of \ttlh@display has an extra }.
+<inserted text> 
+                \par 
+l.1 ...Guide de Déploiement et d'Exécution Locale}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttlh@display was complete.
+<to be read again> 
+                   \par 
+l.1 ...Guide de Déploiement et d'Exécution Locale}
+                                                  
+? 
+Runaway argument?
+! Paragraph ended before \ttl@mkchap was complete.
+<to be read again> 
+                   \par 
+l.1 ...Guide de Déploiement et d'Exécution Locale}
+                                                  
+? 
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \section{Prérequis Logiciels}
+                                 
+? 
+
+Overfull \hbox (44.55191pt too wide) in paragraph at lines 9--10
+[]\T1/lmss/bx/n/20.74 Angular CLI 19 (\T1/lmtt/b/n/20.74 npm install -g @angula
+r/cli\T1/lmss/bx/n/20.74 ) ; 
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \section{Procédure de Lancement Pas-à-Pas}
+                                               
+? 
+
+Overfull \hbox (61.67424pt too wide) in paragraph at lines 13--14
+[]\T1/lmss/bx/n/20.74 section[Procédure de Lan-ce-ment Pas-à-Pas]Procédure
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...marrage de l'Application Frontend Angular}
+                                                  
+? 
+(C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\lenovo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
+y
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+Overfull \hbox (9.89133pt too wide) in paragraph at lines 15--17
+\T1/lmss/bx/n/20.74 tend An-gu-lar]1. Dé-mar-rage de l'Ap-pli-ca-tion Fron-
+ []
+
+
+Overfull \hbox (29.82793pt too wide) in paragraph at lines 22--23
+\T1/lmss/bx/n/20.74 L'interface de su-per-vi-sion est ac-ces-sible à l'adresse 
+:
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...ction{2. Lancement du Serveur API Backend}
+                                                  
+? 
+[46
+
+
+
+]
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...ection{3. Démarrage du Simulateur d'Usine}
+                                                  
+? 
+
+Overfull \hbox (16.24246pt too wide) in paragraph at lines 32--34
+[]\T1/lmss/bx/n/20.74 subsection[3. Dé-mar-rage du Si-mu-la-teur d'Usine]3.
+ []
+
+
+Overfull \hbox (1.94574pt too wide) in paragraph at lines 32--34
+\T1/lmss/bx/n/20.74 Dé-mar-rage du Si-mu-la-teur d'Usine Ou-vrir un troi-
+ []
+
+
+! Package titlesec Error: Nested titles.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...ection{4. Exécution des Tests Automatisés}
+                                                  
+? 
+
+Overfull \hbox (7.29468pt too wide) in paragraph at lines 40--42
+[]\T1/lmss/bx/n/20.74 subsection[4. Exé-cu-tion des Tests Au-to-ma-ti-sés]4.
+ []
+
+) [47] (main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  169C23DC0E608C5BF2BA22C65135C887;2689.
+ )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 1 (\begingroup)
+### simple group (level 1) entered at line 1 ({)
+### bottom level
+(\end occurred when \iffalse on line 1 was incomplete) 
+Here is how much of TeX's memory you used:
+ 42087 strings out of 402986
+ 933816 string characters out of 5448296
+ 1873189 words of memory out of 5000000
+ 70110 multiletter control sequences out of 15000+600000
+ 772761 words of font info for 133 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 89i,18n,97p,1195b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (60 pages).

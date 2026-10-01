@@ -1,0 +1,54 @@
+﻿\chapter*{Introduction Générale}
+\addcontentsline{toc}{chapter}{Introduction Générale}
+
+\section*{1. Contexte Général : L'Industrie 4.0 et les Systèmes Cyber-Physiques}
+
+La quatrième révolution industrielle, communément désignée sous le terme d'\textbf{Industrie 4.0}, transforme en profondeur les modes de production et de gestion des infrastructures industrielles. Cette transition repose sur l'intégration étroite entre le monde physique (équipements, lignes de production, capteurs) et le monde numérique (systèmes informatiques, traitement distribué, algorithmes décisionnels), donnant naissance aux \textbf{Systèmes Cyber-Physiques (Cyber-Physical Systems --- CPS)}.
+
+Dans ce paradigme, les installations industrielles ne sont plus de simples ensembles mécaniques isolés, mais des entités interconnectées capables de générer des flux massifs de données de fonctionnement. L'exploitation judicieuse de ces flux de télémétrie ouvre la voie à une supervision intelligente, capable d'anticiper les dégradations d'équipements et d'optimiser la continuité de service des processus critiques.
+
+\section*{2. Le Concept de Jumeau Numérique (Digital Twin)}
+
+Au cœur de cette dynamique, le concept de \textbf{Jumeau Numérique} (\textit{Digital Twin}), formalisé initialement par Michael Grieves \cite{grieves2014digital}, s'est imposé comme un vecteur d'innovation technologique majeur. Un jumeau numérique est défini comme une réplique logicielle dynamique, synchrone et bidirectionnelle d'un actif physique, d'un processus ou d'un système complet.
+
+Contrairement aux modèles de simulation statiques ou aux outils de supervision conventionnels (SCADA) qui se limitent à afficher des mesures brutes, le Jumeau Numérique contextualise la donnée :
+\begin{itemize}
+    \item Il intègre la \textbf{topologie structurelle} et les dépendances fonctionnelles du réseau d'équipements ;
+    \item Il évalue en temps réel l'état de santé opérationnel des machines selon des règles métier évolutives ;
+    \item Il projette l'impact d'une anomalie locale sur l'ensemble de la chaîne de valeur en aval.
+\end{itemize}
+
+\section*{3. Contexte Industriel et Problématique OCP}
+
+Le Groupe OCP, leader mondial de l'extraction, du traitement et de la valorisation des phosphates et de leurs dérivés, opère des installations industrielles complexes caractérisées par des flux de production continus. Une chaîne de traitement de minerai typique articule successivement des unités de criblage, de concassage, de transport par convoyeurs à bande et d'enrichissement par flottation.
+
+Dans un tel environnement, la défaillance imprévue d'un équipement amont (ex. l'élévation anormale de la température ou de la vibration d'un concasseur primaire) engendre inévitablement des \textbf{effets de blocage en cascade} sur les équipements avals. Les systèmes de supervision traditionnels présentent deux limites structurelles :
+\begin{enumerate}
+    \item \textbf{Absence de corrélation topologique :} Les alarmes sont émises de manière isolée sans calcul automatisé de la propagation de la panne le long de la ligne de production ;
+    \item \textbf{Phénomène de « tempête d'alarmes » (\textit{Alarm Flood}) :} La multiplication incontrôlée de notifications redondantes lors d'un incident sature l'attention des opérateurs de conduite.
+\end{enumerate}
+
+\section*{4. Objectifs du Projet}
+
+L'objectif principal de ce stage de 4\textsuperscript{ème} année en Génie Informatique est la \textbf{conception et le développement d'un prototype complet de Jumeau Numérique industriel} répondant aux défis de supervision réactive et d'aide à la décision opérationnelle.
+
+Les objectifs spécifiques assignés à cette réalisation logicielle sont les suivants :
+\begin{itemize}
+    \item \textbf{Modélisation orientée domaine :} Structurer les concepts métier (Usine, Machines, Capteurs, Dépendances, Alertes) selon les principes du \textit{Domain-Driven Design} (DDD) ;
+    \item \textbf{Moteur de traitement temps réel :} Concevoir un pipeline d'ingestion capable d'évaluer les anomalies instantanément avec un mécanisme de refroidissement (\textit{cooldown}) anti-rebond ;
+    \item \textbf{Analyse d'impact par parcours de graphe :} Implémenter un algorithme de parcours en largeur (\textbf{BFS}) permettant de calculer dynamiquement la liste et la sévérité estimée des machines impactées en cascade ;
+    \item \textbf{Diffusion bidirectionnelle WebSockets :} Garantir la mise à jour sub-seconde des interfaces opérateurs via ASP.NET Core SignalR ;
+    \item \textbf{Interface de supervision réactive :} Développer un tableau de bord moderne sous Angular 19 intégrant une cartographie topologique interactive du réseau d'équipements.
+\end{itemize}
+
+\section*{5. Organisation du Rapport}
+
+Le présent rapport d'ingénierie logicielle s'articule autour de six chapitres :
+\begin{itemize}
+    \item Le \textbf{Chapitre 1} présente l'organisme d'accueil (Groupe OCP), son environnement industriel et le positionnement du projet.
+    \item Le \textbf{Chapitre 2} analyse l'existant, expose la démarche comparative et formalise le cahier des charges fonctionnel et technique.
+    \item Le \textbf{Chapitre 3} détaille la conception architecturale (Clean Architecture, DDD, CQRS, modélisation relationnelle et algorithme de graphe).
+    \item Le \textbf{Chapitre 4} décrit la réalisation et l'implémentation technique des briques logicielles (.NET 9, SignalR, Worker Service et Angular 19).
+    \item Le \textbf{Chapitre 5} expose la stratégie de tests automatisés (xUnit, Jasmine), la validation sur banc d'essai et l'évaluation des performances.
+    \item Le \textbf{Chapitre 6} conclut le document en dressant le bilan des réalisations et en esquissant les perspectives d'évolution industrielle.
+\end{itemize}

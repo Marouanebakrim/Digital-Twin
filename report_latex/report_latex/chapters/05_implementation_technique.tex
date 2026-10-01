@@ -1,0 +1,146 @@
+﻿\chapter{Implémentation Logicielle et Système Temps Réel}
+
+\section{Stack Technologique et Environnement de Développement}
+
+La solution s'appuie sur une suite logicielle moderne, performante et standardisée dans l'industrie :
+\begin{itemize}
+    \item \textbf{Backend :} .NET 9, C\# 13, ASP.NET Core Web API, Entity Framework Core 9.
+    \item \textbf{Médiation \& Temps Réel :} MediatR 12 (CQRS intra-processus), ASP.NET Core SignalR (WebSockets).
+    \item \textbf{Persistance :} Microsoft SQL Server / LocalDB avec migrations automatiques EF Core.
+    \item \textbf{Frontend :} Angular 19, TypeScript 5.6, Signals réactifs, RxJS, TailwindCSS.
+    \item \textbf{Visualisation Graphique :} \texttt{vis-network} (cartographie interactive de graphe) et \texttt{Chart.js} (séries temporelles de télémétrie).
+\end{itemize}
+
+\section{Le Cœur Métier : Le DigitalTwinEngine}
+
+Le \texttt{DigitalTwinEngine} est le service central d'orchestration backend. Il traite chaque mesure entrante de manière atomique et coordonne l'évaluation des anomalies, la régulation anti-rebond, l'analyse d'impact et la diffusion temps réel.
+
+La Figure~\ref{fig:engine_pipeline} détaille les 7 étapes séquentielles du pipeline d'ingestion.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=0.8cm,
+    every node/.style={font=\small\sffamily},
+    stepblock/.style={
+        rectangle,
+        draw=ocpnavy,
+        fill=ocpnavy!8,
+        thick,
+        rounded corners=3pt,
+        text width=12cm,
+        minimum height=0.9cm,
+        align=left,
+        inner sep=6pt
+    },
+    stepnum/.style={
+        rectangle,
+        fill=ocpnavy,
+        text=white,
+        font=\small\bfseries,
+        rounded corners=2pt,
+        inner sep=3pt
+    }
+]
+    \node[stepblock] (s1) {\textbf{Étape 1 : Réception \& Validation Syntaxique}\\
+        \scriptsize Désérialisation du DTO \texttt{IngestReadingCommand} et vérification de la présence des identifiants.};
+    
+    \node[stepblock, below=of s1] (s2) {\textbf{Étape 2 : Chargement du Domaine \& Validation des Invariants}\\
+        \scriptsize Récupération de l'agrégat \texttt{Machine} et du \texttt{Sensor}, validation stricte via \texttt{DomainGuard}.};
+
+    \node[stepblock, below=of s2] (s3) {\textbf{Étape 3 : Évaluation Multi-Seuils d'Anomalie}\\
+        \scriptsize Analyse de la valeur par \texttt{AnomalyDetectionService} $\rightarrow$ Qualification : \textit{Normal}, \textit{Warning} ou \textit{Critical}.};
+
+    \node[stepblock, below=of s3] (s4) {\textbf{Étape 4 : Filtrage Temporel Anti-Flood (Cooldown)}\\
+        \scriptsize Contrôle par \texttt{AlertCooldownService} $\rightarrow$ Blocage des doublons si délai $<$ seuil (ex. 60s).};
+
+    \node[stepblock, below=of s4] (s5) {\textbf{Étape 5 : Analyse d'Impact Topologique (BFS)}\\
+        \scriptsize Si statut \textit{Critical}, exécution du parcours BFS sur le graphe de dépendance et calcul des machines avals impactées.};
+
+    \node[stepblock, below=of s5] (s6) {\textbf{Étape 6 : Persistance Transactionnelle}\\
+        \scriptsize Enregistrement de la mesure, mise à jour du statut machine et création de l'alerte dans SQL Server via EF Core.};
+
+    \node[stepblock, below=of s6] (s7) {\textbf{Étape 7 : Diffusion Temps Réel WebSockets (SignalR)}\\
+        \scriptsize Émission instantanée des événements \texttt{ReadingReceived}, \texttt{MachineStatusUpdated} et \texttt{AlertRaised}.};
+
+    % Flèches de liaison
+    \draw[flowarrow] (s1) -- (s2);
+    \draw[flowarrow] (s2) -- (s3);
+    \draw[flowarrow] (s3) -- (s4);
+    \draw[flowarrow] (s4) -- (s5);
+    \draw[flowarrow] (s5) -- (s6);
+    \draw[flowarrow] (s6) -- (s7);
+\end{tikzpicture}
+\caption{Pipeline d'orchestration en 7 étapes du \texttt{DigitalTwinEngine}}
+\label{fig:engine_pipeline}
+\end{figure}
+
+\section{Services Spécialisés du Backend}
+
+\subsection{Détection d'Anomalies : AnomalyDetectionService}
+
+Le service \texttt{AnomalyDetectionService} évalue la dérive d'une mesure par rapport aux seuils configurés sur le capteur selon la règle décisionnelle :
+\begin{equation}
+\text{Statut}(v) = 
+\begin{cases} 
+\text{Critical} & \text{si } v \ge \text{Seuil}_{\text{Critical}} \\
+\text{Warning} & \text{si } \text{Seuil}_{\text{Warning}} \le v < \text{Seuil}_{\text{Critical}} \\
+\text{Normal} & \text{si } v < \text{Seuil}_{\text{Warning}}
+\end{cases}
+\end{equation}
+
+\subsection{Régulation Anti-Rebond : AlertCooldownService}
+
+Pour éliminer l'inondation d'alarmes, le \texttt{AlertCooldownService} implémente un dictionnaire concurrent thread-safe (\texttt{ConcurrentDictionary<Guid, DateTime>}) qui stocke l'horodatage de la dernière alerte émise par capteur :
+
+\begin{lstlisting}[language=CSharpCustom, caption={Implémentation du service anti-rebond AlertCooldownService}]
+public class AlertCooldownService : IAlertCooldownService
+{
+    private readonly ConcurrentDictionary<Guid, DateTime> _lastAlertTimestamps = new();
+    private readonly TimeSpan _cooldownDuration = TimeSpan.FromSeconds(60);
+
+    public bool ShouldEmitAlert(Guid sensorId, DateTime currentTimestamp)
+    {
+        if (_lastAlertTimestamps.TryGetValue(sensorId, out var lastTime))
+        {
+            if (currentTimestamp - lastTime < _cooldownDuration)
+                return false; // Dans la période de refroidissement : filtrage de l'alerte
+        }
+
+        _lastAlertTimestamps[sensorId] = currentTimestamp;
+        return true; // Délai écoulé : émission autorisée
+    }
+}
+\end{lstlisting}
+
+\section{Architecture de Communication Temps Réel avec SignalR}
+
+La communication entre le backend et l'interface utilisateur s'effectue via un hub WebSockets ASP.NET Core SignalR (\texttt{DigitalTwinHub}). Les clients souscrivent à des canaux logiques ciblés afin d'optimiser la bande passante réseau :
+
+\begin{itemize}
+    \item \textbf{Groupe Global (\texttt{"AllClients"}) :} Reçoit les notifications d'alertes majeures et les changements globaux de statut de l'usine.
+    \item \textbf{Groupe Par Machine (\texttt{"Machine\_\{id\}"}) :} Reçoit le flux haute fréquence des mesures de télémétrie d'un équipement sélectionné par l'opérateur.
+\end{itemize}
+
+\section{Le Simulateur Industriel Autonome}
+
+Le simulateur d'usine est développé sous la forme d'un \textbf{Worker Service} indépendant. Il reproduit fidèlement la dynamique cinétique des capteurs industriels (vibration en mm/s, température de palier en $^\circ$C, courant moteur en Ampères) et permet d'exécuter un scénario de défaillance déterministe sur le concasseur \texttt{CR-001} articulé en 6 phases :
+\begin{enumerate}
+    \item \textbf{Phase 1 --- Régime nominal :} Signaux stables dans la plage nominale (ex. vibration $< 3.5$\,mm/s) ;
+    \item \textbf{Phase 2 --- Dégradation progressive :} Montée linéaire des vibrations franchissant le seuil Warning ($4.5$\,mm/s) ;
+    \item \textbf{Phase 3 --- Défaillance critique :} Dépassement du seuil Critical ($7.0$\,mm/s), déclenchement de l'alerte critique et propagation BFS vers le convoyeur \texttt{CV-001} ;
+    \item \textbf{Phase 4 --- Pic d'incident :} Maintien en zone critique simulant l'échauffement maximal ;
+    \item \textbf{Phase 5 --- Refroidissement / Réparation :} Baisse progressive des valeurs de télémétrie ;
+    \item \textbf{Phase 6 --- Auto-guérison et retour nominal :} Rétablissement complet de l'ensemble de la chaîne de production.
+\end{enumerate}
+
+\section{Développement de l'Interface de Supervision Angular 19}
+
+L'application cliente est développée avec Angular 19 en exploitant le nouveau paradigme des \textbf{Signals} pour une réactivité optimale sans surcoût de cycle de détection :
+
+\begin{itemize}
+    \item \textbf{Module Dashboard :} Affiche les compteurs opérationnels globaux (machines nominales, dégradées, critiques), le journal des alertes actives et les indicateurs synthétiques de santé de l'usine.
+    \item \textbf{Module Topologie de l'Usine (vis-network) :} Cartographie topologique interactive où chaque machine est représentée par un nœud dont la couleur reflète dynamiquement son statut opérationnel (Vert : Nominal, Orange : Warning, Rouge : Critical, Violet : Degraded par impact amont).
+    \item \textbf{Module Détails Machine (Chart.js) :} Visualisation en temps réel des courbes chronologiques des capteurs avec tracé distinct des seuils de tolérance.
+    \item \textbf{Module Gestion des Alertes :} Console de filtrage multi-critères avec interface d'acquittement instantané pour les opérateurs de salle de contrôle.
+\end{itemize}

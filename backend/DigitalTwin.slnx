@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="DigitalTwin.Api/DigitalTwin.Api.csproj" />
+  <Project Path="DigitalTwin.Application/DigitalTwin.Application.csproj" />
+  <Project Path="DigitalTwin.Domain.Tests/DigitalTwin.Domain.Tests.csproj" />
+  <Project Path="DigitalTwin.Domain/DigitalTwin.Domain.csproj" />
+  <Project Path="DigitalTwin.Infrastructure/DigitalTwin.Infrastructure.csproj" />
+  <Project Path="DigitalTwin.Simulator/DigitalTwin.Simulator.csproj" />
+</Solution>
